@@ -1,0 +1,12 @@
+﻿<vm:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:PsychoTest.ViewModels"
+    SampleProperty="Sample Text Property Value">
+
+    <vm:MainViewModel.Items>
+        <vm:QuestionModel ID="0" Title="Glib and Superficial Charm" Description="Maecenas praesent accumsan bibendum" Selected="-1"/>
+        <vm:QuestionModel ID="1" Title="Grandiose Self-Worth" Description="Dictumst eleifend facilisi faucibus" Selected="-1" />
+    </vm:MainViewModel.Items>
+
+</vm:MainViewModel>
